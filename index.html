@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Krona One">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -13,15 +12,16 @@
 </head>
 
 <body>
+    <div id="minicircle"></div>
     <div id="main">
         <div id="container">
-            <img src="prakharlogo.webp" alt="logo" class="nlinks">
+            <img src="prakharlogo.webp" alt="logo">
             <nav>
-                <a class="nlinks" href="#container">HOME</a>
-                <a class="nlinks" href="#aboutme">ABOUT</a>
-                <a class="nlinks" href="#contact">RESUME</a>
-                <a class="nlinks" href="#contact">CONTACT</a>
-                <a class="nlinks" href="#myworks">WORKS</a>
+                <a class="nlinks" href="#container" data-scroll-to>HOME</a>
+                <a class="nlinks" href="#aboutme" data-scroll-to>ABOUT</a>
+                <a class="nlinks" href="#contact" data-scroll-to>RESUME</a>
+                <a class="nlinks" href="#contact" data-scroll-to>CONTACT</a>
+                <a class="nlinks" href="#myworks" data-scroll-to>WORKS</a>
             </nav>
         </div>
         <div id="home">
@@ -33,7 +33,7 @@
                 <hr>
                 <div id="TAL">
                     <img src="https://cdn-icons-png.flaticon.com/512/61/61041.png" alt="img"><a href="#myworks"
-                        role="button">Take a Look</a>
+                        role="button" data-scroll-to>Take a Look</a>
                 </div>
             </div>
             <div class="animb" id="owner">
@@ -142,21 +142,15 @@
                 </div>
             </div>
             <hr>
-            <p>Copyright Sujal 2024 </p>
+            <p>Copyright Prakhar 2024 </p>
         </div>
     </div>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-
-<script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>script>
+<script src="magnet-mouse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fluffy-factory/magnet-mouse@latest/lib/magnet-mouse.min.js"></script>
 
 <script src="portfolio.js"></script>
 
