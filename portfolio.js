@@ -3,6 +3,9 @@
 const locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
+    mobile: {
+        smooth: true
+    },
     scrollFromAnywhere: true,
     lerp: 0.1,
     multiplier: 1.5,
@@ -284,5 +287,17 @@ gsap.from(".anim4d", {
     ease: Expo,
     duration: 1,
 })
+
+// sidebar toggle menu
+
+const toggleBtn = document.querySelector(".icon");
+        const toggleBtnIcon = document.querySelector("#container i");
+        const dropdownmenu = document.querySelector(".dropdownmenu");
+
+        toggleBtn.onclick = function () { 
+           dropdownmenu.classList.toggle('open');
+        } 
+
+
 //portfolio java script
 

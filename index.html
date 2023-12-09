@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Krona One">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -17,12 +18,24 @@
         <div id="container">
             <img src="prakharlogo.webp" alt="logo">
             <nav>
-                <a class="nlinks" href="#container" data-scroll-to>HOME</a>
-                <a class="nlinks" href="#aboutme" data-scroll-to>ABOUT</a>
-                <a class="nlinks" href="#contact" data-scroll-to>RESUME</a>
-                <a class="nlinks" href="#contact" data-scroll-to>CONTACT</a>
-                <a class="nlinks" href="#myworks" data-scroll-to>WORKS</a>
+                <a id="navbar1" class="nlinks" href="#container" data-scroll-to>HOME</a>
+                <a id="navbar2" class="nlinks" href="#aboutme" data-scroll-to>ABOUT</a>
+                <a id="navbar3" class="nlinks" href="#contact" data-scroll-to>RESUME</a>
+                <a id="navbar4" class="nlinks" href="#contact" data-scroll-to>CONTACT</a>
+                <a id="navbar5" class="nlinks" href="#myworks" data-scroll-to>WORKS</a>
+                <div class="icon">
+                    <i class="ri-menu-3-line"></i>
+                </div>
             </nav>
+        </div>
+        <div class="dropdownmenu">
+            <ul>
+                <li><a id="navbar1"  href="#container" data-scroll-to>HOME</a></li>
+                <li><a id="navbar2"  href="#aboutme" data-scroll-to>ABOUT</a></li>
+                <li><a id="navbar3"  href="#contact" data-scroll-to>RESUME</a></li>
+                <li><a id="navbar4"  href="#contact" data-scroll-to>CONTACT</a></li>
+                <li><a id="navbar5"  href="#myworks" data-scroll-to>WORKS</a></li>
+            </ul>
         </div>
         <div id="home">
             <div class="anima" id="heading">
@@ -82,19 +95,21 @@
                 <p>In everything that I do, I make sure to put in hard work and perseverance into all aspects of my
                     life. While also at the same time using tools that come from a diverse cultural background through
                     traveling and learning multiple languages to create something clients love.</p>
-                <div id="subsectiona">
-                    <span><i class="ri-computer-line"></i><a href="">Web Designing</a></span>
+                <div id="subsectiona" class="subsections">
+                    <span><i class="ri-computer-line"></i><a>Web Designing</a></span>
                     <p>Experience collaborating with clients to design multi-page websites with a variety of different
                         animations.</p>
                 </div>
-                <div id="subsectionb">
+                <div id="subsectionb" class="subsections">
                     <span><i class="ri-window-2-line"></i><a>Responsiveness</a></span>
                     <p>Experience collaborating with clients to create websites that adjust to both tablet and mobile.
                     </p>
                 </div>
-                <div id="subsectionc">
+                <div id="subsectionc" class="subsections">
                     <span><i class="ri-movie-line"></i><a>Frontend Development</a></span>
-                    <p>Elevate your online presence with captivating frontend development. I craft visually stunning and user-friendly websites, blending creativity with cutting-edge technology to engage your audience..</p>
+                    <p>Elevate your online presence with captivating frontend development. I craft visually stunning and
+                        user-friendly websites, blending creativity with cutting-edge technology to engage your
+                        audience..</p>
                 </div>
             </div>
         </div>
@@ -122,7 +137,7 @@
         <div id="footer">
             <div id="foots">
                 <div id="greet">
-                    <h1>SUJAL</h1>
+                    <h1>Prakhar</h1>
                     <p>THANK YOU FOR VISITING MY WEBSITE.</p>
                     <p>HOPE TO SEE YOU AGAIN SOON !   </p>
                 </div>
